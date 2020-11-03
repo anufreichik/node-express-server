@@ -9,7 +9,7 @@ import userDeleteAll from './userDeleteAll';
 const router = Router();
 
 router.post('/', userRegister); //POST localhost:5000/user
-router.get('/', userGetAll); //lGET localhost:5000/user
+router.get('/', userGetAll); //GET localhost:5000/user
 router.get('/:userId', userGetById); //lGET localhost:5000/user/id
 //router.get('/:userId/:age', userGetById); //get localhost:5000/user/userid/age - if need two paramenters
 router.patch('/:userId', userUpdateById); //PATCH localhost:5000/user/userid
