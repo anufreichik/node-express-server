@@ -20,9 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58a54be7-c205-4b57-9769-7532d15012b1" name="Default Changelist" comment="added ENV variables to mongo connection string and port">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +134,7 @@
       <workItem from="1603853049785" duration="14954000" />
       <workItem from="1603924781539" duration="19498000" />
       <workItem from="1604081040815" duration="27531000" />
-      <workItem from="1604364991246" duration="10134000" />
+      <workItem from="1604364991246" duration="10541000" />
     </task>
     <task id="LOCAL-00001" summary="added ENV variables to mongo connection string and port">
       <created>1604383348211</created>
@@ -173,7 +171,21 @@
       <option name="project" value="LOCAL" />
       <updated>1604389392701</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added ENV variables to mongo connection string and port">
+      <created>1604389657299</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1604389657299</updated>
+    </task>
+    <task id="LOCAL-00007" summary="added ENV variables to mongo connection string and port">
+      <created>1604389755520</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1604389755520</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,26 +229,26 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="769" y="254" key="Github.UntrackedFilesDialog/0.0.2048.1112/2560.16.2048.1112@0.0.2048.1112" timestamp="1604113183842" />
-    <state width="1015" height="309" key="GridCell.Tab.0.bottom" timestamp="1604389628568">
+    <state width="1015" height="309" key="GridCell.Tab.0.bottom" timestamp="1604389663565">
       <screen x="2560" y="16" width="2048" height="1112" />
     </state>
     <state width="2027" height="309" key="GridCell.Tab.0.bottom/0.0.2048.1112/2560.16.2048.1112@0.0.2048.1112" timestamp="1604293538169" />
-    <state width="1015" height="309" key="GridCell.Tab.0.bottom/0.0.2048.1112/2560.16.2048.1112@2560.16.2048.1112" timestamp="1604389628568" />
-    <state width="1015" height="309" key="GridCell.Tab.0.center" timestamp="1604389628567">
+    <state width="1015" height="309" key="GridCell.Tab.0.bottom/0.0.2048.1112/2560.16.2048.1112@2560.16.2048.1112" timestamp="1604389663565" />
+    <state width="1015" height="309" key="GridCell.Tab.0.center" timestamp="1604389663565">
       <screen x="2560" y="16" width="2048" height="1112" />
     </state>
     <state width="2027" height="309" key="GridCell.Tab.0.center/0.0.2048.1112/2560.16.2048.1112@0.0.2048.1112" timestamp="1604293538169" />
-    <state width="1015" height="309" key="GridCell.Tab.0.center/0.0.2048.1112/2560.16.2048.1112@2560.16.2048.1112" timestamp="1604389628567" />
-    <state width="1015" height="309" key="GridCell.Tab.0.left" timestamp="1604389628566">
+    <state width="1015" height="309" key="GridCell.Tab.0.center/0.0.2048.1112/2560.16.2048.1112@2560.16.2048.1112" timestamp="1604389663565" />
+    <state width="1015" height="309" key="GridCell.Tab.0.left" timestamp="1604389663565">
       <screen x="2560" y="16" width="2048" height="1112" />
     </state>
     <state width="2027" height="309" key="GridCell.Tab.0.left/0.0.2048.1112/2560.16.2048.1112@0.0.2048.1112" timestamp="1604293538169" />
-    <state width="1015" height="309" key="GridCell.Tab.0.left/0.0.2048.1112/2560.16.2048.1112@2560.16.2048.1112" timestamp="1604389628566" />
-    <state width="1015" height="309" key="GridCell.Tab.0.right" timestamp="1604389628568">
+    <state width="1015" height="309" key="GridCell.Tab.0.left/0.0.2048.1112/2560.16.2048.1112@2560.16.2048.1112" timestamp="1604389663565" />
+    <state width="1015" height="309" key="GridCell.Tab.0.right" timestamp="1604389663565">
       <screen x="2560" y="16" width="2048" height="1112" />
     </state>
     <state width="2027" height="309" key="GridCell.Tab.0.right/0.0.2048.1112/2560.16.2048.1112@0.0.2048.1112" timestamp="1604293538169" />
-    <state width="1015" height="309" key="GridCell.Tab.0.right/0.0.2048.1112/2560.16.2048.1112@2560.16.2048.1112" timestamp="1604389628568" />
+    <state width="1015" height="309" key="GridCell.Tab.0.right/0.0.2048.1112/2560.16.2048.1112@2560.16.2048.1112" timestamp="1604389663565" />
     <state width="2027" height="376" key="GridCell.Tab.1.bottom" timestamp="1603951804211">
       <screen x="2560" y="16" width="2048" height="1112" />
     </state>
