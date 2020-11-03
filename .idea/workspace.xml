@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="58a54be7-c205-4b57-9769-7532d15012b1" name="Default Changelist" comment="added ENV variables to mongo connection string and port">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/node-express-server1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1hwjLccYPqKemyCSv7pnRbBUTwc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ReactProject/crmClient" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\marta\Documents\PASV\ExpressJS\node-express-server1\node_modules\prettier" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\marta\Documents\PASV\ExpressJS\node-express-server1\src\modules\user" />
+    </key>
+    <key name="es6.move.members.recent.items">
+      <recent name="C:\Users\marta\Documents\PASV\ExpressJS\node-express-server1\src\info.js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\marta\Documents\PASV\ExpressJS\node-express-server1\src\modules" />
+      <recent name="C:\Users\marta\Documents\PASV\ExpressJS\node-express-server1\src\modules\home" />
+      <recent name="C:\Users\marta\Documents\PASV\ExpressJS\node-express-server1\src\modules\info" />
+      <recent name="C:\Users\marta\Documents\PASV\ExpressJS\node-express-server1\src\modules\core" />
+      <recent name="C:\Users\marta\Documents\PASV\ExpressJS\node-express-server1\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.start">
+    <configuration name="Debug" type="ChromiumRemoteDebugType" factoryName="Chromium Remote" port="9229">
+      <method v="2" />
+    </configuration>
+    <configuration name="babel-node" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="babel-node" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Attach to Node.js/Chrome.Debug" />
+      <item itemvalue="npm.build" />
+      <item itemvalue="npm.babel-node" />
+      <item itemvalue="npm.start" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.babel-node" />
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="58a54be7-c205-4b57-9769-7532d15012b1" name="Default Changelist" comment="" />
+      <created>1600928995099</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600928995099</updated>
+      <workItem from="1600928996332" duration="1740000" />
+      <workItem from="1600968778815" duration="31000" />
+      <workItem from="1603853049785" duration="14954000" />
+      <workItem from="1603924781539" duration="19498000" />
+      <workItem from="1604081040815" duration="27531000" />
+      <workItem from="1604364991246" duration="9623000" />
+    </task>
+    <task id="LOCAL-00001" summary="added ENV variables to mongo connection string and port">
+      <created>1604383348211</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604383348211</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added ENV variables to mongo connection string and port">
+      <created>1604386728031</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604386728031</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added ENV variables to mongo connection string and port">
+      <created>1604388659273</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604388659273</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added ENV variables to mongo connection string and port" />
+    <option name="LAST_COMMIT_MESSAGE" value="added ENV variables to mongo connection string and port" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="894" y="449" key="#ESLint" timestamp="1604024511246">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="894" y="449" key="#ESLint/0.0.2048.1112/2560.16.2048.1112@0.0.2048.1112" timestamp="1604024511246" />
+    <state x="479" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604175598112">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="479" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2048.1112/2560.16.2048.1112@0.0.2048.1112" timestamp="1604175598112" />
+    <state x="3039" y="227" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2048.1112/2560.16.2048.1112@2560.16.2048.1112" timestamp="1603911758651" />
+    <state x="3365" y="327" key="FileChooserDialogImpl" timestamp="1604365086125">
+      <screen x="2560" y="16" width="2048" height="1112" />
+    </state>
+    <state x="805" y="311" key="FileChooserDialogImpl/0.0.2048.1112/2560.16.2048.1112@0.0.2048.1112" timestamp="1604103745492" />
+    <state x="3365" y="327" key="FileChooserDialogImpl/0.0.2048.1112/2560.16.2048.1112@2560.16.2048.1112" timestamp="1604365086125" />
+    <state x="873" y="454" key="Github.ShareDialog" timestamp="1604113114209">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="873" y="454" key="Github.ShareDialog/0.0.2048.1112/2560.16.2048.1112@0.0.2048.1112" timestamp="1604113114209" />
+    <state x="769" y="254" key="Github.UntrackedFilesDialog" timestamp="1604113183842">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="769" y="254" key="Github.UntrackedFilesDialog/0.0.2048.1112/2560.16.2048.1112@0.0.2048.1112" timestamp="1604113183842" />
+    <state width="2027" height="309" key="GridCell.Tab.0.bottom" timestamp="1604388805058">
+      <screen x="2560" y="16" width="2048" height="1112" />
+    </state>
+    <state width="2027" height="309" key="GridCell.Tab.0.bottom/0.0.2048.1112/2560.16.2048.1112@0.0.2048.1112" timestamp="1604293538169" />
+    <state width="2027" height="309" key="GridCell.Tab.0.bottom/0.0.2048.1112/2560.16.2048.1112@2560.16.2048.1112" timestamp="1604388805058" />
+    <state width="2027" height="309" key="GridCell.Tab.0.center" timestamp="1604388805057">
+      <screen x="2560" y="16" width="2048" height="1112" />
+    </state>
+    <state width="2027" height="309" key="GridCell.Tab.0.center/0.0.2048.1112/2560.16.2048.1112@0.0.2048.1112" timestamp="1604293538169" />
+    <state width="2027" height="309" key="GridCell.Tab.0.center/0.0.2048.1112/2560.16.2048.1112@2560.16.2048.1112" timestamp="1604388805057" />
+    <state width="2027" height="309" key="GridCell.Tab.0.left" timestamp="1604388805057">
+      <screen x="2560" y="16" width="2048" height="1112" />
+    </state>
+    <state width="2027" height="309" key="GridCell.Tab.0.left/0.0.2048.1112/2560.16.2048.1112@0.0.2048.1112" timestamp="1604293538169" />
+    <state width="2027" height="309" key="GridCell.Tab.0.left/0.0.2048.1112/2560.16.2048.1112@2560.16.2048.1112" timestamp="1604388805057" />
+    <state width="2027" height="309" key="GridCell.Tab.0.right" timestamp="1604388805057">
+      <screen x="2560" y="16" width="2048" height="1112" />
+    </state>
+    <state width="2027" height="309" key="GridCell.Tab.0.right/0.0.2048.1112/2560.16.2048.1112@0.0.2048.1112" timestamp="1604293538169" />
+    <state width="2027" height="309" key="GridCell.Tab.0.right/0.0.2048.1112/2560.16.2048.1112@2560.16.2048.1112" timestamp="1604388805057" />
+    <state width="2027" height="376" key="GridCell.Tab.1.bottom" timestamp="1603951804211">
+      <screen x="2560" y="16" width="2048" height="1112" />
+    </state>
+    <state width="2027" height="376" key="GridCell.Tab.1.bottom/0.0.2048.1112/2560.16.2048.1112@2560.16.2048.1112" timestamp="1603951804211" />
+    <state width="2027" height="376" key="GridCell.Tab.1.center" timestamp="1603951804211">
+      <screen x="2560" y="16" width="2048" height="1112" />
+    </state>
+    <state width="2027" height="376" key="GridCell.Tab.1.center/0.0.2048.1112/2560.16.2048.1112@2560.16.2048.1112" timestamp="1603951804211" />
+    <state width="2027" height="376" key="GridCell.Tab.1.left" timestamp="1603951804211">
+      <screen x="2560" y="16" width="2048" height="1112" />
+    </state>
+    <state width="2027" height="376" key="GridCell.Tab.1.left/0.0.2048.1112/2560.16.2048.1112@2560.16.2048.1112" timestamp="1603951804211" />
+    <state width="2027" height="376" key="GridCell.Tab.1.right" timestamp="1603951804211">
+      <screen x="2560" y="16" width="2048" height="1112" />
+    </state>
+    <state width="2027" height="376" key="GridCell.Tab.1.right/0.0.2048.1112/2560.16.2048.1112@2560.16.2048.1112" timestamp="1603951804211" />
+    <state width="2027" height="376" key="GridCell.Tab.2.bottom" timestamp="1603951804211">
+      <screen x="2560" y="16" width="2048" height="1112" />
+    </state>
+    <state width="2027" height="376" key="GridCell.Tab.2.bottom/0.0.2048.1112/2560.16.2048.1112@2560.16.2048.1112" timestamp="1603951804211" />
+    <state width="2027" height="376" key="GridCell.Tab.2.center" timestamp="1603951804211">
+      <screen x="2560" y="16" width="2048" height="1112" />
+    </state>
+    <state width="2027" height="376" key="GridCell.Tab.2.center/0.0.2048.1112/2560.16.2048.1112@2560.16.2048.1112" timestamp="1603951804211" />
+    <state width="2027" height="376" key="GridCell.Tab.2.left" timestamp="1603951804211">
+      <screen x="2560" y="16" width="2048" height="1112" />
+    </state>
+    <state width="2027" height="376" key="GridCell.Tab.2.left/0.0.2048.1112/2560.16.2048.1112@2560.16.2048.1112" timestamp="1603951804211" />
+    <state width="2027" height="376" key="GridCell.Tab.2.right" timestamp="1603951804211">
+      <screen x="2560" y="16" width="2048" height="1112" />
+    </state>
+    <state width="2027" height="376" key="GridCell.Tab.2.right/0.0.2048.1112/2560.16.2048.1112@2560.16.2048.1112" timestamp="1603951804211" />
+    <state width="2027" height="376" key="GridCell.Tab.3.bottom" timestamp="1603951804211">
+      <screen x="2560" y="16" width="2048" height="1112" />
+    </state>
+    <state width="2027" height="376" key="GridCell.Tab.3.bottom/0.0.2048.1112/2560.16.2048.1112@2560.16.2048.1112" timestamp="1603951804211" />
+    <state width="2027" height="376" key="GridCell.Tab.3.center" timestamp="1603951804211">
+      <screen x="2560" y="16" width="2048" height="1112" />
+    </state>
+    <state width="2027" height="376" key="GridCell.Tab.3.center/0.0.2048.1112/2560.16.2048.1112@2560.16.2048.1112" timestamp="1603951804211" />
+    <state width="2027" height="376" key="GridCell.Tab.3.left" timestamp="1603951804211">
+      <screen x="2560" y="16" width="2048" height="1112" />
+    </state>
+    <state width="2027" height="376" key="GridCell.Tab.3.left/0.0.2048.1112/2560.16.2048.1112@2560.16.2048.1112" timestamp="1603951804211" />
+    <state width="2027" height="376" key="GridCell.Tab.3.right" timestamp="1603951804211">
+      <screen x="2560" y="16" width="2048" height="1112" />
+    </state>
+    <state width="2027" height="376" key="GridCell.Tab.3.right/0.0.2048.1112/2560.16.2048.1112@2560.16.2048.1112" timestamp="1603951804211" />
+    <state x="2582" y="220" key="SettingsEditor" timestamp="1604101427406">
+      <screen x="2560" y="16" width="2048" height="1112" />
+    </state>
+    <state x="2582" y="220" key="SettingsEditor/0.0.2048.1112/2560.16.2048.1112@2560.16.2048.1112" timestamp="1604101427406" />
+    <state x="734" y="289" width="579" height="534" key="find.popup" timestamp="1604173771646">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="734" y="289" width="579" height="534" key="find.popup/0.0.2048.1112/2560.16.2048.1112@0.0.2048.1112" timestamp="1604173771646" />
+  </component>
+</project>
