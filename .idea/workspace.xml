@@ -19,34 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58a54be7-c205-4b57-9769-7532d15012b1" name="Default Changelist" comment="added ENV variables to mongo connection string and port">
-      <change afterPath="$PROJECT_DIR$/src/modules/author/Model.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/author/Routers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/author/create.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/author/delete.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/author/getById.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/author/search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/author/update.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/author/updateAuthorBooks.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/base/Model.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/base/Routers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/base/create.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/base/delete.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/base/getById.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/base/search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/base/update.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/book/Model.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/book/Routers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/book/create.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/book/delete.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/book/getById.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/book/search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/book/update.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
+    <list default="true" id="58a54be7-c205-4b57-9769-7532d15012b1" name="Default Changelist" comment="updated after added books and authors controllers">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/core/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/core/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/author/create.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/author/create.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/book/Model.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/book/Model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/book/create.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/book/create.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +146,7 @@
       <workItem from="1610586715068" duration="7559000" />
       <workItem from="1610814013289" duration="2313000" />
       <workItem from="1611191309464" duration="14666000" />
-      <workItem from="1611382945986" duration="17054000" />
+      <workItem from="1611382945986" duration="26914000" />
     </task>
     <task id="LOCAL-00001" summary="added ENV variables to mongo connection string and port">
       <created>1604383348211</created>
@@ -227,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604390071570</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="updated after added books and authors controllers">
+      <created>1611438150939</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1611438150939</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,6 +231,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added ENV variables to mongo connection string and port" />
-    <option name="LAST_COMMIT_MESSAGE" value="added ENV variables to mongo connection string and port" />
+    <MESSAGE value="updated after added books and authors controllers" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated after added books and authors controllers" />
   </component>
 </project>

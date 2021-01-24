@@ -5,7 +5,7 @@ import mongoose from 'mongoose';
 export default function create(req, res) {
   const _id = new mongoose.Types.ObjectId();
   //CREATE NEW AUTHOR
-  const newAuthor = new Author({
+  let newAuthor = new Author({
     _id: _id,
     name: req.body.name,
     books: req.body.books,

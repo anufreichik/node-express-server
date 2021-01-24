@@ -5,13 +5,11 @@ const bookSchema = new Schema(
   {
     name: {
       type: String,
-      required: false,
     },
     author: [
       {
         type: mongoose.Schema.Types.ObjectId,
         ref: 'Author',
-        required: true,
       },
     ],
   },

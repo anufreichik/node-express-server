@@ -1,38 +1,56 @@
 import mongoose from 'mongoose';
 import Book from './Model';
 import Author from '../author/Model';
-export default function create(req, res) {
+export default async function create(req, res) {
   const _id = new mongoose.Types.ObjectId();
 
-  const newBook = new Book({
-    _id: _id,
-    name: req.body.name,
-    author: req.body.author, //sending array of authors
-  });
+  let authors = req.body.author;
 
   //loop through authors array that came in body of request
   //check if each author found in Authors collection
   //if found update book list for this author
   //if not found remove it from incoming array
-  req.body.author.forEach((author) => {
-    Author.findById(author)
+
+  const newBook = new Book({
+    _id: _id,
+    name: req.body.name,
+    author: authors, //sending array of authors
+  });
+
+  const promises = req.body.author.map(async (author) => {
+    await Author.findById(author)
       .exec()
       .then((doc) => {
         if (doc) {
           doc.books = [...doc.books, _id];
           doc.save().catch((err) => {
-            throw new Error(err);
+            newBook.author = authors.filter((el) => el !== author);
+            //throw new Error(err);
           });
         } else {
-          newBook.author = newBook.author.filter((el) => el !== author);
+          newBook.author = authors.filter((el) => el !== author);
         }
       })
       .catch((err) => {
-        console.log(err);
-        res.status(400).json('Author update error');
+        newBook.author = authors.filter((el) => el !== author);
+        //res.status(400).json(err);
       });
   });
 
+  await Promise.all(promises);
+
+  //create book
+  newBook
+    .save()
+    .then(() => {
+      res.status(200).json('Book created!!');
+    })
+    .catch((err) => {
+      res.status(400).json('Book not created');
+    })
+    .finally(() => {
+      console.log('finally');
+    });
   //ALTERNATIVE TO UPDATE
 
   // Author.findOneAndUpdate(
@@ -47,18 +65,4 @@ export default function create(req, res) {
   //     }
   //   })
   //   .catch((error) => {});
-
-  //create book
-  newBook
-    .save()
-    .then(() => {
-      res.status(200).json('Book created!!');
-    })
-    .catch((err) => {
-      console.log(err);
-      res.status(400).json('Book not created');
-    })
-    .finally(() => {
-      console.log('finally');
-    });
 }
