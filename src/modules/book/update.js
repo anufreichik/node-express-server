@@ -38,9 +38,9 @@ export default async function updateById(req, res) {
             .exec()
             .then((doc) => {
               if (doc) {
-                console.log('books list updated');
+                console.log('authors list updated');
               } else {
-                console.log('books list not updated');
+                console.log('authors list not updated');
               }
             })
             .catch((error) => {
