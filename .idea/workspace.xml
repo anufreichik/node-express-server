@@ -19,9 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58a54be7-c205-4b57-9769-7532d15012b1" name="Default Changelist" comment="added asyncronocy to book create to wait for athors array validation">
+    <list default="true" id="58a54be7-c205-4b57-9769-7532d15012b1" name="Default Changelist" comment="create author async added to check for validity of author books passed in body">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/author/create.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/author/create.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/book/update.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/book/update.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +144,7 @@
       <workItem from="1610586715068" duration="7559000" />
       <workItem from="1610814013289" duration="2313000" />
       <workItem from="1611191309464" duration="14666000" />
-      <workItem from="1611382945986" duration="28746000" />
+      <workItem from="1611382945986" duration="34739000" />
     </task>
     <task id="LOCAL-00001" summary="added ENV variables to mongo connection string and port">
       <created>1604383348211</created>
@@ -216,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611448199412</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="create author async added to check for validity of author books passed in body">
+      <created>1611545852480</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1611545852480</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,6 +245,7 @@
     <MESSAGE value="added ENV variables to mongo connection string and port" />
     <MESSAGE value="updated after added books and authors controllers" />
     <MESSAGE value="added asyncronocy to book create to wait for athors array validation" />
-    <option name="LAST_COMMIT_MESSAGE" value="added asyncronocy to book create to wait for athors array validation" />
+    <MESSAGE value="create author async added to check for validity of author books passed in body" />
+    <option name="LAST_COMMIT_MESSAGE" value="create author async added to check for validity of author books passed in body" />
   </component>
 </project>
