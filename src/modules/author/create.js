@@ -2,22 +2,23 @@ import Author from './Model';
 import Book from '../book/Model';
 import mongoose from 'mongoose';
 
-export default function create(req, res) {
+export default async function create(req, res) {
   const _id = new mongoose.Types.ObjectId();
+  const books = req.body.books;
   //CREATE NEW AUTHOR
-  let newAuthor = new Author({
+  const newAuthor = new Author({
     _id: _id,
     name: req.body.name,
-    books: req.body.books,
+    books: books,
   });
 
   //check that list of books that sent exists, otherwise remove from array
-  req.body.books.forEach((book) => {
+  const promises = req.body.books.map((book) => {
     Book.findById(book)
       .exec()
       .then((doc) => {
         if (!doc) {
-          newAuthor.books = newAuthor.books.filter((el) => el !== book);
+          newAuthor.books = books.filter((el) => el !== book);
         } else {
           //update book to add this author to book
           Book.findOneAndUpdate({ _id: book }, { $addToSet: { author: _id } })
@@ -25,8 +26,14 @@ export default function create(req, res) {
             .then(() => console.log('updated'))
             .catch((err) => console.log(err));
         }
+      })
+      .catch((err) => {
+        newAuthor.books = books.filter((el) => el !== book);
+        //res.status(400).json(err);
       });
   });
+
+  await Promise.all(promises);
 
   //create Author
   newAuthor

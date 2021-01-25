@@ -19,11 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58a54be7-c205-4b57-9769-7532d15012b1" name="Default Changelist" comment="updated after added books and authors controllers">
+    <list default="true" id="58a54be7-c205-4b57-9769-7532d15012b1" name="Default Changelist" comment="added asyncronocy to book create to wait for athors array validation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modules/author/create.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/author/create.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/book/Model.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/book/Model.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/book/create.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/book/create.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +144,7 @@
       <workItem from="1610586715068" duration="7559000" />
       <workItem from="1610814013289" duration="2313000" />
       <workItem from="1611191309464" duration="14666000" />
-      <workItem from="1611382945986" duration="26914000" />
+      <workItem from="1611382945986" duration="28746000" />
     </task>
     <task id="LOCAL-00001" summary="added ENV variables to mongo connection string and port">
       <created>1604383348211</created>
@@ -211,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611438150939</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="added asyncronocy to book create to wait for athors array validation">
+      <created>1611448199412</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1611448199412</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,6 +237,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added ENV variables to mongo connection string and port" />
     <MESSAGE value="updated after added books and authors controllers" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated after added books and authors controllers" />
+    <MESSAGE value="added asyncronocy to book create to wait for athors array validation" />
+    <option name="LAST_COMMIT_MESSAGE" value="added asyncronocy to book create to wait for athors array validation" />
   </component>
 </project>
