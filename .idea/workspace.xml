@@ -19,12 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58a54be7-c205-4b57-9769-7532d15012b1" name="Default Changelist" comment="author update with update of book author">
+    <list default="true" id="58a54be7-c205-4b57-9769-7532d15012b1" name="Default Changelist" comment="improved create and update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/author/create.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/author/create.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/author/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/author/search.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/book/create.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/book/create.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/book/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/book/search.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/author/update.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/author/update.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modules/book/update.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/book/update.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -151,7 +148,7 @@
       <workItem from="1611382945986" duration="49120000" />
       <workItem from="1611882751824" duration="958000" />
       <workItem from="1611969727379" duration="2340000" />
-      <workItem from="1612023654553" duration="8733000" />
+      <workItem from="1612023654553" duration="9733000" />
     </task>
     <task id="LOCAL-00001" summary="added ENV variables to mongo connection string and port">
       <created>1604383348211</created>
@@ -244,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611612818423</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="improved create and update">
+      <created>1612037046874</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1612037046875</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,6 +273,7 @@
     <MESSAGE value="create author async added to check for validity of author books passed in body" />
     <MESSAGE value="book update improved" />
     <MESSAGE value="author update with update of book author" />
-    <option name="LAST_COMMIT_MESSAGE" value="author update with update of book author" />
+    <MESSAGE value="improved create and update" />
+    <option name="LAST_COMMIT_MESSAGE" value="improved create and update" />
   </component>
 </project>

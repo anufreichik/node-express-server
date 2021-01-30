@@ -2,7 +2,6 @@ import Book from './Model';
 import Author from '../author/Model';
 export default async function updateById(req, res) {
   const bookId = req.params.bookId;
-  //const authors = req.body.author;
   const newAuthorsList = [];
 
   await Book.findById(bookId)
