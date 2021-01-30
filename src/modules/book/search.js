@@ -8,7 +8,11 @@ export default function search(req, res) {
   if (name) query.name = { $regex: escapeRegExp(name), $options: 'i' };
 
   Book.find(query)
-    .populate('Book')
+    .populate({
+      path: 'author',
+      model: 'Author',
+      select: 'name', // to select fields and remove _id field
+    })
     .exec()
     .then((result) => {
       res.status(200).json(result);

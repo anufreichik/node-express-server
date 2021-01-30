@@ -3,8 +3,9 @@ import Author from './Model';
 export default function search(req, res) {
   Author.find()
     .populate({
-      path: 'Book',
-      options: { limit: 2 },
+      path: 'books',
+      model: 'Book',
+      select: 'name createdAt', // to select fields and remove _id field
     })
     .exec()
     .then((result) => {
