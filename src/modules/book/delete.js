@@ -9,7 +9,7 @@ export default async function deleteById(req, res) {
     .exec()
     .then((doc) => {
       res.status(400).json('Cant Delete Book because this book in Order');
-      return 'found';
+      return doc;
     })
     .catch((err) => {
       console.log(err);

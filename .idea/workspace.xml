@@ -20,18 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58a54be7-c205-4b57-9769-7532d15012b1" name="Default Changelist" comment="improved create and update">
-      <change afterPath="$PROJECT_DIR$/src/modules/order/Model.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/order/Routers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/order/create.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/order/delete.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/order/getById.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/order/search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/order/update.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/book/Model.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/book/Model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/book/create.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/book/create.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modules/book/delete.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/book/delete.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/book/update.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/book/update.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/core/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/core/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/order/create.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/order/create.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,7 +153,8 @@
       <workItem from="1612202741982" duration="10970000" />
       <workItem from="1612572990173" duration="5219000" />
       <workItem from="1612673208406" duration="2413000" />
-      <workItem from="1612920956850" duration="7485000" />
+      <workItem from="1612920956850" duration="8147000" />
+      <workItem from="1612980911737" duration="2715000" />
     </task>
     <task id="LOCAL-00001" summary="added ENV variables to mongo connection string and port">
       <created>1604383348211</created>
@@ -268,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612038032894</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="improved create and update">
+      <created>1612946548344</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1612946548344</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

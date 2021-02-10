@@ -38,6 +38,8 @@ export default async function create(req, res) {
   const newBook = new Book({
     _id: _id,
     name: req.body.name,
+    purchasedPrice: req.body.purchasedPrice,
+    sellPrice: req.body.sellPrice,
     author: newAuthorsList, //sending array of authors
   });
 
