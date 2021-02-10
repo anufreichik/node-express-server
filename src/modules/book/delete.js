@@ -1,9 +1,23 @@
 import Book from './Model';
 import Author from '../author/Model';
-
-export default function deleteById(req, res) {
+import Order from '../order/Model';
+export default async function deleteById(req, res) {
   //const bookId = req.params.bookId;
   const { bookId = '' } = req.params;
+
+  const findResult = Order.find({ 'books.book': bookId })
+    .exec()
+    .then((doc) => {
+      res.status(400).json('Cant Delete Book because this book in Order');
+      return 'found';
+    })
+    .catch((err) => {
+      console.log(err);
+      res.status(400).json('Order find error');
+    });
+
+  const promise = await Promise.all([findResult]);
+  if (promise) return; //book found in order so dont delete book
 
   Book.findById(bookId)
     // .populate('author')

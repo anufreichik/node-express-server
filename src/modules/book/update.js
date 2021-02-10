@@ -10,14 +10,16 @@ export default async function updateById(req, res) {
       //loop through list of authors that came in request and if author not found in current list of authors add book to him
 
       const promise1 = req.body.author.map((author) => {
-        if (!doc.author.includes(author)) {
-          Author.findOneAndUpdate({ _id: author }, { $addToSet: { books: bookId } })
+        if (!doc.author.includes(author.toString())) {
+          return Author.findOneAndUpdate(
+            { _id: author },
+            { $addToSet: { books: bookId } },
+          )
             .exec()
             .then((doc) => {
               if (doc) {
+                console.log('books list in author collection updated');
                 newAuthorsList.push(author);
-                console.log(newAuthorsList, 'new authors list before updated');
-                console.log('books list updated');
               } else {
                 console.log('books list not updated');
               }
@@ -29,19 +31,20 @@ export default async function updateById(req, res) {
         } else {
           newAuthorsList.push(author);
         }
-        return null;
       });
 
       //loop through the current list of authors and if author not found in incoming list remove book from him
 
       const promise2 = doc.author.map((author) => {
-        if (!req.body.author.includes(author)) {
+        if (!req.body.author.includes(author.toString())) {
           //new list of authors not include this author => remove book from him
           return Author.findOneAndUpdate({ _id: author }, { $pull: { books: bookId } })
             .exec()
             .then((doc) => {
               if (doc) {
-                console.log('books list updated!');
+                console.log(
+                  'books list in author collection updated  - book removed from list!',
+                );
               } else {
                 console.log('books list not updated!');
               }
@@ -52,21 +55,18 @@ export default async function updateById(req, res) {
             });
         }
       });
-      await Promise.all([promise1, promise2]);
-      console.log('finishing...');
+      await Promise.all([...promise1, ...promise2]);
     });
-
 
   const updatedBook = {
     name: req.body.name,
     author: newAuthorsList,
   };
-  console.log(newAuthorsList, 'newAuthorsList');
-  console.log(updatedBook, 'updatedBook');
 
   Book.updateOne({ _id: bookId }, updatedBook)
     .exec()
     .then((result) => {
+      console.log(updatedBook, 'book updated!!!!');
       res.status(200).json(result);
     })
     .catch((err) => {

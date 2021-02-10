@@ -6,6 +6,12 @@ const bookSchema = new Schema(
     name: {
       type: String,
     },
+    purchasedPrice: {
+      type: Number,
+    },
+    sellPrice: {
+      type: Number,
+    },
     author: [
       {
         type: mongoose.Schema.Types.ObjectId,
