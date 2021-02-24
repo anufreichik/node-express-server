@@ -8,16 +8,18 @@ export default async function deleteById(req, res) {
   const findResult = Order.find({ 'books.book': bookId })
     .exec()
     .then((doc) => {
-      res.status(400).json('Cant Delete Book because this book in Order');
-      return doc;
+      if (doc.length) {
+        res.status(400).json('Cant Delete Book because this book in Order');
+      }
     })
     .catch((err) => {
       console.log(err);
       res.status(400).json('Order find error');
     });
 
-  const promise = await Promise.all([findResult]);
-  if (promise) return; //book found in order so dont delete book
+  await Promise.all([findResult]);
+
+  //if (promise) return; //book found in order so dont delete book
 
   Book.findById(bookId)
     // .populate('author')
